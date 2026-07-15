@@ -35,6 +35,12 @@ Depois acesse `http://localhost:8080`.
 bash scripts/validar.sh
 ```
 
+No Windows (PowerShell):
+
+```powershell
+pwsh -File scripts/validar.ps1
+```
+
 ## Estrutura
 
 Consulte [MAPA_DO_REPOSITORIO.md](./MAPA_DO_REPOSITORIO.md).
@@ -46,4 +52,3 @@ Consulte [MAPA_DO_REPOSITORIO.md](./MAPA_DO_REPOSITORIO.md).
 3. Defina domínio, e-mails reais, checkout e política de reembolso.
 4. Faça revisão jurídica e editorial.
 5. Teste cadastro, entrega, compra, acesso e exclusão de dados.
-
