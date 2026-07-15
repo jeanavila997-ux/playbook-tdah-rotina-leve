@@ -1,0 +1,2 @@
+{"name":"compra-e-acesso","version":1,"status":"template","trigger":"checkout_webhook","security":["verify_signature","reject_replay","validate_product","idempotency"],"steps":[{"action":"verify_payment"},{"action":"register_order"},{"action":"grant_access"},{"action":"send_welcome"},{"action":"record_purchase"}],"provider":"TO_DEFINE"}
+

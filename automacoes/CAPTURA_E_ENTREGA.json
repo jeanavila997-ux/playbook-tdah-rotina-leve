@@ -1,0 +1,2 @@
+{"name":"captura-e-entrega","version":1,"status":"template","trigger":"lead_submitted","required_fields":["name","email","challenge","consent","source"],"steps":[{"action":"validate_input"},{"action":"normalize_email"},{"action":"upsert_lead","dedupe_key":"email"},{"action":"apply_segment","value_from":"challenge"},{"action":"send_lead_magnet","provider":"TO_DEFINE"},{"action":"start_nurture"}],"privacy":{"consent_required":true,"do_not_send_to_analytics":["name","email"]},"retry":{"max_attempts":3}}
+

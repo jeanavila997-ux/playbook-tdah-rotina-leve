@@ -1,0 +1,2 @@
+{"name":"nutricao-segmentada","version":1,"status":"template","trigger":"lead_delivery_confirmed","segments":["sobrecarga","procrastinacao","inicio","constancia"],"sequence":[{"day":0,"message":"entrega"},{"day":1,"message":"identificacao"},{"day":2,"message":"quebra_de_culpa"},{"day":4,"message":"rotina_minima"},{"day":6,"message":"oferta","requires":"offer_active"}],"exit_conditions":["unsubscribed","hard_bounce","complaint"]}
+
