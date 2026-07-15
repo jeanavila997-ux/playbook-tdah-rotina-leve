@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /obrigado.html
+
+# TODO: trocar pelo domínio final antes do lançamento
+Sitemap: https://rotinaleve.exemplo/sitemap.xml
 
