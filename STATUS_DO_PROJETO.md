@@ -13,7 +13,8 @@
 - [x] funil e comunicação;
 - [x] criativos e templates;
 - [x] backend opcional;
-- [x] validação automatizada.
+- [x] validação automatizada;
+- [x] SEO e compartilhamento social (meta tags, sitemap, robots).
 
 ## Depende de configuração externa
 
